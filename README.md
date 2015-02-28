@@ -1,3 +1,5 @@
+**This is a fork of digitalocean-api that adds retries.**
+
 # digitalocean-api 
 
 The digitalocean-api is a module that allows you to communicate with the [DigitalOcean API](https://www.digitalocean.com/api) from node.js

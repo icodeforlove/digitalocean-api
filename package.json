@@ -35,8 +35,10 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "xtend": "2.x",
-    "request": "2.x"
+    "debug": "^2.1.1",
+    "promise-retryer": "0.0.1",
+    "request": "2.x",
+    "xtend": "2.x"
   },
   "devDependencies": {
     "mocha": "latest",
