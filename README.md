@@ -7,6 +7,7 @@ The digitalocean-api is a module that allows you to communicate with the [Digita
 [![NPM module](https://img.shields.io/npm/v/digitalocean-api.png)](https://www.npmjs.org/package/digitalocean-api)
 [![Gittip](https://img.shields.io/gittip/enzy.svg)](https://www.gittip.com/enzy/)
 
+**NOTE: documentation and tests have not been updated for v2**
 ## Installation
 
 This module is published in NPM:
@@ -23,7 +24,7 @@ The `--save` tells NPM to automatically add it to your `package.json` file
 // Import a module
 var DigitalOceanAPI = require('digitalocean-api');
 // Create an instance with your API credentials
-var api = new DigitalOceanAPI('client_id', 'api_key');
+var api = new DigitalOceanAPI('token');
 
 // Get things done
 api.dropletGetAll(function(error, droplets){
